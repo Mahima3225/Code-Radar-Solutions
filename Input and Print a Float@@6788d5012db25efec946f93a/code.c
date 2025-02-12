@@ -2,6 +2,6 @@
 int main()
 {   
     float x;
-    printf("foating-point number",x);
+    printf("You entered:",x);
     scanf("%d",&x);
 }
