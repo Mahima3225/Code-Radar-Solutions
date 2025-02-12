@@ -3,5 +3,5 @@ int main()
 {   
     float x;
     printf("foating-point number",x);
-    scanf("%d",&x)
+    scanf("%d",&x);
 }
