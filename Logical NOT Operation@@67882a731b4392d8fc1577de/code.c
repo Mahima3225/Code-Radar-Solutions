@@ -6,5 +6,5 @@ int main()
     if(!(a>0))
     printf("True");
     else
-    print("False");
+    printf("False");
 }
