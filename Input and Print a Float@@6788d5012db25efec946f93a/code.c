@@ -2,6 +2,8 @@
 int main()
 {   
     float x;
-    printf("You entered:",x);
-    scanf("%d",&x);
+    printf("a single floating number");
+    scanf("%f",&x);
+    printf("You entered:%f",x)
+
 }
