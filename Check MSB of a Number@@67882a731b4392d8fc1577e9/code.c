@@ -8,6 +8,8 @@ int main()
         num>>1;
         position++;
     }
-    num%2==1;
-    return position;
+    if(num%2==1);
+    printf("SET");
+    else
+    printf("Not Set");
 }
