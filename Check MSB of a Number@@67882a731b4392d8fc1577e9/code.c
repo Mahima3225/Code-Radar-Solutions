@@ -8,7 +8,7 @@ int main()
         num>>=1;
         position++;
     } 
-    return postion;
+    return position;
     if(postion==1)
     printf("SET");
     else
