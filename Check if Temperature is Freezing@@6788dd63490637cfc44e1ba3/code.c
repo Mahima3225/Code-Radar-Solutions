@@ -4,7 +4,7 @@ int main()
     int f;
     scanf("%d",&f);
     if(f<=0)
-    printf("Frezzing");
+    printf("Freezing");
     else
-    printf("Above Frezzing");
+    printf("Above Freezing");
 }
