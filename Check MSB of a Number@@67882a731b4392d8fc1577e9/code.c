@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int num,position;
+    int num,position=0;
     scanf("%d",&num);
     while(num>1)
     {
@@ -9,7 +9,7 @@ int main()
         position++;
     } 
     return postion;
-    if(postion==(num%2==1))
+    if(postion==0)
     printf("SET");
     else
     printf("Not Set");
