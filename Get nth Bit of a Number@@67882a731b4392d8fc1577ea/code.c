@@ -6,9 +6,9 @@ int main()
     while(num>1)
     {  
        if(value&&num%2==1)
-       printf("1");
+       printf("%d",value);
        postion++;
        else
-       printf("0");
+       printf("%d",value);
     }
 }
