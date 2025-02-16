@@ -6,5 +6,5 @@ int main()
     if(SP>CP)
     printf("Profit");
     else
-    printf("Loss")
+    printf("Loss");
 }
