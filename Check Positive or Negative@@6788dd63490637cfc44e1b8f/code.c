@@ -8,5 +8,5 @@ int main()
     else if(num<0)
     printf("Negative");
     else
-    printf("zero");
+    printf("Zero");
 }
