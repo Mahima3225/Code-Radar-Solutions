@@ -11,6 +11,6 @@ int main()
         case '-':printf("%d",n1-n2);break;
         case '*':printf("%d",n1*n2);break;
         case '/':printf("%d",n1/n2);break;
-        default :printf("error");
+        default:printf("error");
     }
 }
