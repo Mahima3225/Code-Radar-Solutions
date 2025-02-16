@@ -6,6 +6,6 @@ int main()
     for(i=1;i<=10;i++)
     {
         res=N*i;
-        printf("%d*%i=%d",N,i,res);
+        printf("%d*%i=%d\n",N,i,res);
     }
 }
