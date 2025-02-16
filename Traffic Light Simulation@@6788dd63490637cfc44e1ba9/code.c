@@ -2,7 +2,7 @@
 int main()
 {
     char colour;
-    sacnf("%c",&colour);
+    scanf("%c",&colour);
     switch(colour)
     {
         case 'R':printf("Stop");break;
