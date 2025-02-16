@@ -2,10 +2,10 @@
 int main()
 {
     int n1,n2;
-    char operator;
+    char Operator;
     scanf("%d%d",&n1,&n2);
-    scanf("%c",&operator);
-    switch(operator)
+    scanf("%c",&Operator);
+    switch(Operator)
     {
         case '+':printf("%d%d",n1+n2);break;
         case '-':printf("%d%d",n1-n2);break;
