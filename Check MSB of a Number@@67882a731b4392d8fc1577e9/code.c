@@ -9,7 +9,7 @@ int main()
         position++;
     } 
     return postion;
-    if(postion==num%2==1)
+    if(postion==(num%2==1))
     printf("SET");
     else
     printf("Not Set");
