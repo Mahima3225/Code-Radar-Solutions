@@ -9,8 +9,8 @@ int main()
     {
         case '+':printf("%d%d",n1+n2);break;
         case '-':printf("%d%d",n1-n2);break;
-        case '*':printf("%d%d":n1*n2);break;
-        case '/':printf("%d%d":n1/n2);break;
+        case '*':printf("%d%d",n1*n2);break;
+        case '/':printf("%d%d",n1/n2);break;
         default:printf("error");
     }
 }
