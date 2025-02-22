@@ -6,5 +6,5 @@ int main()
     (a=a^b;
     b=a^b;
     a=a^b;)
-    printf(a "and" b);
+    printf("%d and %d",a,b);
 }
