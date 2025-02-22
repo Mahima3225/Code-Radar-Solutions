@@ -3,6 +3,6 @@ int main()
 {
     int num;
     scanf("%d",&num);
-    return n&&1;
+    return n&1;
    
 }
