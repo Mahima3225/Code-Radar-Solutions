@@ -6,9 +6,9 @@ int main()
     scanf("%d",&num);
     for(i=0;i<position;i++)
     {
-        shifting=0<<position;
+        shifting=1<<position;
     }
-    if(num||shifting)
+    if(num&shifting)
     printf("Set");
     else
     printf("Not Set");
