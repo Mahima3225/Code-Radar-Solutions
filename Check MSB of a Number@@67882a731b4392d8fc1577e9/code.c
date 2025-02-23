@@ -6,10 +6,10 @@ int main()
     scanf("%d",&num);
     for(i=0;i<position;i++)
     {
-        shifting=1<<position;
+        shifting=0<<position;
     }
     if(num&shifting)
-    printf("Set");
-    else
     printf("Not Set");
+    else
+    printf("Set");
 }
