@@ -7,9 +7,8 @@ int main()
     {
         for(c='A';c<=r;c++)
         {
-        printf("%c ",c);
+            printf("%c ",c);
         }
         printf("\n");
     }
-    
 }
