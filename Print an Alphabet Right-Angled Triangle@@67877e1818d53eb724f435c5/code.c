@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int N,r,c;
+    char N;
+    int r,c;
     scanf("%c",&N);
     for(r='A';r<=N;r++)
     {
