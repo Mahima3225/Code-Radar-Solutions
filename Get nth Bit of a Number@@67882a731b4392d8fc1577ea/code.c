@@ -1,14 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int num,position=0,value;
+    int num,position;
     scanf("%d",&num);
-    while(num>1)
-    {  
-       if(value&&num%2==1)
-       printf("%d",value);
-       postion++;
-       else
-       printf("%d",value);
+    for(i=0;i<=position;i++)
+    {
+        value=(num>>position)&1;
     }
+    if(num&value)
+    printf("%d",value);
+
 }
