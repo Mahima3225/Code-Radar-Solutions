@@ -5,7 +5,7 @@ int main()
     scanf("%d",&num);
     int shifting=1<<31;
     if(num&shifting)
-    printf("SET");
+    printf("Set");
     else
     printf("Not Set");
 }
