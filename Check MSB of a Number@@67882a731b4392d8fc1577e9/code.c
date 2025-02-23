@@ -8,7 +8,7 @@ int main()
     {
         shifting=0<<position;
     }
-    if(num|shifting)
+    if(num||shifting)
     printf("Set");
     else
     printf("Not Set");
