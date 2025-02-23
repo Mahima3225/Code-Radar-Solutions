@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int N,c;
-    for(N=N;N>=N;N--)
+    int N,r,,c;
+    for(r=N;r>=1;r--)
     {
         for(c=1;c<=N;c++)
         {
