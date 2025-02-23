@@ -1,14 +1,10 @@
 #include<stdio.h>
 int main()
 {    
-    int num,a=0,i;
+    int num;
     scanf("%d",&num);
-    for(i=0;i<=position,i++)
-    {
-        a=a<<1;
-    }
-    return a;
-    if(a==1)
+    int shifting=1<<31;
+    if(num&shifting==1)
     printf("SET");
     else
     printf("Not Set");
