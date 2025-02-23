@@ -7,10 +7,10 @@ int main()
     scanf("%c",&Operator);
     switch(Operator)
     {
-        case '+':printf(n1+n2);break;
-        case '-':printf(n1-n2);break;
-        case '*':printf(n1*n2);break;
-        case '/':printf(n1/n2);break;
+        case '+':printf("%d",n1+n2);break;
+        case '-':printf("%d",n1-n2);break;
+        case '*':printf("%d",n1*n2);break;
+        case '/':printf("%d",n1/n2);break;
         default:printf("error");
     }
 }
