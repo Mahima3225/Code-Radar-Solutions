@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {    
-    int num,shifting;
+    int num,position,shifting;
     scanf("%d",&num);
     for(i=0;i<position;i++)
     {
