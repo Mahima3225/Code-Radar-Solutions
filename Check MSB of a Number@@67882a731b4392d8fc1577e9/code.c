@@ -5,7 +5,7 @@ int main()
     scanf("%d",&num);
     for(i=0;i<=position,i++)
     {
-        a<<1;
+        a=a<<1;
     }
     return a;
     if(a==1)
