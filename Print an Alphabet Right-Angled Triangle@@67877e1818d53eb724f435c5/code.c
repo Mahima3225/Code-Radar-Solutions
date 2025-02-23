@@ -2,7 +2,7 @@
 int main()
 {
     int N,r,c;
-    scanf("%d",&N);
+    scanf("%c",&N);
     for(r='A';r<=N;r++)
     {
         for(c='A';c<=r;c++)
