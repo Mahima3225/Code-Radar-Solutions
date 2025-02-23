@@ -1,15 +1,14 @@
 #include<stdio.h>
 int main()
-{
-    int num,position=0;
+{    
+    int num,a=0;
     scanf("%d",&num);
-    while(num>1)
+    for(i=0;i<position,i++)
     {
-        num>>=1;
-        position++;
-    } 
-    return position;
-    if(position==1)
+        a<<1;
+    }
+    return a;
+    if(a==1)
     printf("SET");
     else
     printf("Not Set");
