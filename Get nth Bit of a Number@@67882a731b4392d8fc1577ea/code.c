@@ -9,6 +9,6 @@ int main()
         z=num/2;
         p=z/2;
     }
-    if(num==a[i]))
+    if(num==a[i])
     printf(i);
 }
