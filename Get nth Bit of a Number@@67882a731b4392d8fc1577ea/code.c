@@ -5,9 +5,10 @@ int main()
     scanf("%d",&num);
     for(i=0;i<=position;i++)
     {
-        value=(num>>position)&1;
+        y=num%2;
+        z=num/2;
+        p=z/2;
     }
-    if(num&value)
-    printf("%d",value);
-
+    if(num==a[i]))
+    printf(i);
 }
