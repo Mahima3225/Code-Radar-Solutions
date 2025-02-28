@@ -9,7 +9,7 @@ int main()
         for(int j=0;j<=i;j++){
             int a=ascii+j;
             char ch=(char)a;
-            printf("%c",ch);
+            printf("%c ",ch);
         }
         printf("\n");
     }
