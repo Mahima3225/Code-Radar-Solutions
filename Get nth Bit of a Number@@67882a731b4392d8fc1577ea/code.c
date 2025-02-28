@@ -1,14 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int num,position,i,a,y,z,p;
-    scanf("%d",&num);
-    for(i=0;i<=position;i++)
-    {
-        y=num%2;
-        z=num/2;
-        p=z/2;
-    }
-    if(num==a[i])
-    printf(i);
+    int n,m;
+    scanf("%d%d",&n,&m);
+    printf((m>>n)&1);
+    return 0;
 }
