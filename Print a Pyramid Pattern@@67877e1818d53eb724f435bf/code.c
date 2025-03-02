@@ -8,7 +8,7 @@ int main()
     else
     {for(r=0;r<=N;r+=2)
     {
-        for(P=1;P<=SP;P++)
+        for(P=0;P<=SP;P++)
         {
             printf(" ");
         }
