@@ -7,11 +7,11 @@ int main()
     {
         for(P=1;P<=SP;P++)
         {
-            printf("");
+            printf( "");
         }
         for(c=1;c<=r;c++)
         {
-            printf(" *");
+            printf("*");
         }
         printf("\n");
         SP=SP-1;
