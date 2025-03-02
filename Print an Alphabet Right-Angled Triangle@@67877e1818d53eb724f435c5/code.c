@@ -18,7 +18,8 @@
 #include<stdio.h>
 int main()
 {
-	int r,c;
+	int r,c,N;
+    scanf("%d",&N);
 	for(r='A';r<='D';r++)
 	{
 		for(c='A';c<=r;c++)
