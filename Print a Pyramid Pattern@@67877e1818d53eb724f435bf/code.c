@@ -3,7 +3,7 @@ int main()
 {
     int N,r,c,SP=3,P;
     scanf("%d",&N);
-    for(r=0;r<=N;r+=2)
+    for(r=0;r<=N;r+=3)
     {
         for(P=0;P<=SP;P++)
         {
