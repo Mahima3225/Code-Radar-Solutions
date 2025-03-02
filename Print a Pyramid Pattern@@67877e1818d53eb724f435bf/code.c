@@ -7,7 +7,7 @@ int main()
     {
         for(P=1;P<=SP;P++)
         {
-            printf( "");
+            printf(" ");
         }
         for(c=1;c<=r;c++)
         {
@@ -16,5 +16,5 @@ int main()
         printf("\n");
         SP=SP-1;
     }
-
+    return 0;
 }
