@@ -8,7 +8,7 @@ int main()
         int ascii=65;
         for(c=1;c<=r;c++)
         {   
-            int a=ascii-c+1;
+            int a=ascii+c-1;
             char ch=(char)a;
             printf("%c ",ch);
         }
