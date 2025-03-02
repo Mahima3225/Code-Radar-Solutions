@@ -3,10 +3,7 @@ int main()
 {
     int N,r=1,c,SP=3,P;
     scanf("%d",&N);
-    if(N==1)
-    {printf("*\n");}
-    else
-    {for(r=1;r<=N;r+=2)
+    for(r=1;r<=N;r+=2)
     {
         for(P=1;P<=SP;P++)
         {
@@ -18,7 +15,6 @@ int main()
         }
         printf("\n");
         SP=SP-1;
-    }
     }
     return 0;
 }
