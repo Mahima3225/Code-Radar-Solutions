@@ -6,13 +6,13 @@ int main()
     if(N==1)
     {printf("*\n");}
     else
-    {for(r=1;r<=N;r+=2)
+    {for(r=0;r<=N;r+=2)
     {
         for(P=1;P<=SP;P++)
         {
             printf(" ");
         }
-        for(c=1;c<=r;c++)
+        for(c=0;c<=r;c++)
         {
             printf("*");
         }
