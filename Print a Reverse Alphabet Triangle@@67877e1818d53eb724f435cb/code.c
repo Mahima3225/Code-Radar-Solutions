@@ -3,11 +3,14 @@ int main()
 {
     int N,r,c;
     scanf("%d",&N);
-    for(r=N;r>='A';r--)
-    {
-        for(c='A';c<=r;c++)
-        {
-            printf("%c",c);
+    for(r=N;r>=1;r--)
+    {    
+        int ascii=65;
+        for(c=1;c<=r;c++)
+        {   
+            int a=ascii-c+1;
+            char ch=char(ascii);
+            printf("%c ",ch);
         }
         printf("\n");
     }
