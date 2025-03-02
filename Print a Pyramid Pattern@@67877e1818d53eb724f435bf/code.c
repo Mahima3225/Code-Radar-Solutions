@@ -3,13 +3,13 @@ int main()
 {
     int N,r,c,SP=3,P;
     scanf("%d",&N);
-    for(r=0;r<=N;r+=3)
+    for(r=1;r<=N;r+=2)
     {
-        for(P=0;P<=SP;P++)
+        for(P=1;P<=SP;P++)
         {
             printf("");
         }
-        for(c=0;c<=r;c++)
+        for(c=1;c<=r;c++)
         {
             printf("*");
         }
