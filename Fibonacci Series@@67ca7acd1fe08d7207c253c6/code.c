@@ -1,5 +1,6 @@
 #iclude<stdio.h>
 void fibonacciseries(int);
+
 void fibonacciseries(int n)
 {
     for(a=0,b=1,i,c)
