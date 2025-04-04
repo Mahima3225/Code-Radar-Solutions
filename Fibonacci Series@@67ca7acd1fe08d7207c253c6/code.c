@@ -1,5 +1,6 @@
 #iclude<stdio.h>
-int fibonacci(int n)
+void fibonacciseries(int);
+void fibonacciseries(int n)
 {
     if(n==0||n==1)
     return n-1;
