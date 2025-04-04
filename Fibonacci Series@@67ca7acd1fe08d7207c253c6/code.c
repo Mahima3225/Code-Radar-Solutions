@@ -1,4 +1,4 @@
-#iclude<stdio.h>
+#include<stdio.h>
 void fibonacciseries(int);
 void fibonacciseries(int n)
 {
@@ -9,7 +9,5 @@ void fibonacciseries(int n)
         c=a+b;
         a=b;
         b=c;
-
-        //return 1
     }
 }
